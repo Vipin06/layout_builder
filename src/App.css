@@ -1,0 +1,125 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+  .form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .button-section {
+    margin: 3%;
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: royalblue;
+  }
+
+  .remove {
+    background-color: rgb(192, 53, 53);
+  }
+  .remove:hover {
+    background-color: rgb(187, 43, 43);
+  }
+.filter-data{
+  display: flex;
+  margin: 25px auto;
+}
+.filter-data .dropdown button{
+  background-color: #c1c1c15e!important;
+  color: #333!important;
+  width: 127px;
+  height: 43px;
+  outline: none!important;
+  border: none!important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px!important;
+}
+.btn-add{
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.main-waper h3{
+  font-size: 18px;
+  font-weight: 600;
+}
+.sr-num{
+display: flex;
+align-items: center;
+}
+.sr-num p{
+  font-weight: 600;
+}
+.filder-add-field{
+  display: flex;
+  width: 623px;
+  justify-content: space-between;
+}
+.remove-btn{
+  margin-top: 30px;
+}
+.add-f
+{
+  width: fit-content;
+  margin-right: 10px;
+}
+.box-boder{
+  border: 1px solid #3333331f;
+  padding: 12px;
+}
+.main-wraper-t{
+  border-top: 1px solid #c1c1c15e;
+  padding-top: 30px;
+}
+.main-wraper-filter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.drop-down{
+  margin-bottom: 10px;
+}
+.drop-down label{
+  margin-right: 15px;
+  font-weight: 600;
+}
+select {
+  word-wrap: normal;
+  background: #ddd;
+  border: none;
+  height: 43px;
+  border-radius: 4px;
+  padding: 0px 4px;
+}
+.drop-down-de{
+  margin-bottom: 10px; 
+}
+.drop-down-de label{
+  margin-right: 15px;
+  font-weight: 600;
+}
+.table>thead{
+  background: #ddd!important;
+}
